@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="dadabaseTest:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/dadabaseTest_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="dadabaseTest/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="dadabaseTest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf-spring4:Release" />
+          <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf:Release" />
+          <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.18" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.60" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.11" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
